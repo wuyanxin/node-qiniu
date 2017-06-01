@@ -35,6 +35,10 @@ $ make test
 
 ```js
 qiniu.config({
+  // 华东的存储空间 使用 up-z0.qiniu.com 或者 up.qiniu.com
+  // 华北的存储空间 使用 up-z1.qiniu.com
+  // 华南的存储空间 使用 up-z2.qiniu.com
+  // uploadUrl: 'up-z0.qiniu.com'
   access_key: '------',
   secret_key: '------'
 });
